@@ -111,6 +111,7 @@
             Name = "SettingsForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Settings";
+            this.Icon = new Icon("Resources/socoe_icon.ico");
             mainPanel.ResumeLayout(false);
             mainPanel.PerformLayout();
             ResumeLayout(false);

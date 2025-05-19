@@ -267,6 +267,7 @@ namespace RFIDScannerApp
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RFID/NFC Scanner";
+            this.Icon = new Icon("Resources/socoe_icon.ico");
             Load += Form1_Load;
             adminPanel.ResumeLayout(false);
             adminPanel.PerformLayout();

@@ -135,7 +135,8 @@
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "WriteForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Write to Card";
+            Text = "Write Data to Card";
+            this.Icon = new Icon("Resources/socoe_icon.ico");
             writePanel.ResumeLayout(false);
             writePanel.PerformLayout();
             ResumeLayout(false);
